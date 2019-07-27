@@ -1,0 +1,136 @@
+<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="span6">
+                <div class="area">
+                    <form class="form-horizontal" method="POST" action="http://localhost:3000/login">
+                        <div class="heading">
+                            <h4 class="form-heading">Sign In</h4>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputUsername">Username</label>
+
+                            <div class="controls">
+                                <input id="inputUsername" placeholder="E.g. ashwinhegde" type="text" name="username">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputPassword">Password</label>
+
+                            <div class="controls">
+                                <input id="inputPassword" placeholder="Min. 8 Characters" type="password" name="password">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="controls">
+                                <!-- <label class="checkbox"><input type="checkbox">
+                                Keep me signed in ¦ <a class="btn btn-link"
+                                href="#">Forgot my password</a></label> -->
+                                <button class="btn btn-success" type="submit">Sign In</button>
+                            </div>
+                        </div>
+
+                        <!-- <div class="alert alert-error">
+                            <button class="close" data-dismiss="alert" type=
+                            "button">×</button> <strong>Access Denied!</strong>
+                            Please provide valid authorization.
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+
+            <div class="span6">
+                <div class="area">
+                    <form class="form-horizontal" method="POST" action="http://localhost:3000/register">
+                        <div class="heading">
+                            <h4 class="form-heading">Sign Up</h4>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="inputFirst">First
+                            Name</label>
+
+                            <div class="controls">
+                                <input id="inputFirst" placeholder="E.g. Ashwin" type="text" name="fname">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="inputLast">Last
+                            Name</label>
+
+                            <div class="controls">
+                                <input id="inputLast" placeholder="E.g. Hegde" type="text" name="lname">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputEmail">Email</label>
+
+                            <div class="controls">
+                                <input id="inputEmail" placeholder="E.g. ashwinh@cybage.com" type="text" name="email">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputUsername">Username</label>
+
+                            <div class="controls">
+                                <input id="inputUsername" placeholder="E.g. ashwinhegde" type="text" name="username">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputPassword">Password</label>
+
+                            <div class="controls">
+                                <input id="inputPassword" placeholder="Min. 8 Characters" type="password" name="password">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for=
+                            "inputPassword">Confirm Password</label>
+
+                            <div class="controls">
+                                <input id="inputPassword" placeholder="Min. 8 Characters" type="password" name="confPassword">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="controls">
+                                <!-- <label class="checkbox"><input type="checkbox">
+                                I agree all your <a href="#">Terms of
+                                Services</a></label> --> <button class=
+                                "btn btn-success" type="submit">Sign
+                                Up</button> <!-- <button class="btn" type=
+                                "button">Help</button> -->
+                            </div>
+                        </div>
+
+                        <!-- <div class="alert alert-info">
+                            <button class="close" data-dismiss="alert" type=
+                            "button">×</button> <strong>Confirmation:</strong>
+                            A confirmation email has been sent to your
+                            email.<br>
+                            Thank you for your registration.
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
